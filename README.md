@@ -1,4 +1,4 @@
->This is a README from a private repo named 'httpserver'. The source code is unavaliable for public view. Contact me to learn more about the inner workings of this project.
+>This is a README from a private repo named 'httpserver' from October 6, 2022. The source code is unavaliable for public view. Contact me to learn more about the inner workings of this project.
 # Audit-Logged Work-Queue based HTTPServer
 This is a program made for CSE130 that is an HTTP server, running forever waiting for requests from a client. The server can perform GET, PUT, and APPEND methods to a file, and contain an audit log, which will log the requests that was made to it in the order that the servers receives and process the requests. This server has multithreaded capabilities, containing a work queue which will use multiple threads to process a concurrent amount of clients. The server's threads must be efficient to serve multiple clients at a time, rather than one client at a time, for efficiency. Finally, the server should be atomic and coherent when processing requests.
 # Design Documentation
